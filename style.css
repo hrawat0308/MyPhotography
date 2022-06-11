@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    background-color: #f3f3f3;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.logo{
+    margin-left: 20px;
+    font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 680px){
+    header{
+        display: block;
+    }
+    .logo{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    ul{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 35px;
+    text-align: center;
+}
+
+
+
+ul > a{
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
