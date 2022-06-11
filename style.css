@@ -1,8 +1,13 @@
+
 body{
     margin: 0;
     background-color: #f3f3f3;
     font-family: 'Poppins', sans-serif;
     color: #444;
+}
+.highlight{
+    background-color: #EAD2A8; 
+    border-radius: 5px;
 }
 
 .container{
@@ -34,12 +39,15 @@ ul{
 
 ul > a{
     list-style-type: none;
-    color: black;
+    color: #444;
     text-decoration: none;
     font-size: 1.3rem;
     font-weight: 400;
 }
 
+ul > a :hover{
+    text-decoration: underline;
+}
 
 .banner{
     margin-top: 60px;
@@ -69,10 +77,6 @@ ul > a{
     height: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
-
-
-
 
 
 @media only screen and (max-width: 680px){
@@ -115,6 +119,9 @@ ul > a{
     }
     .container{
         height: 600px;
+    }
+    #section1 #section2 #section3{
+        margin-top: 0px;
     }
 
 }
