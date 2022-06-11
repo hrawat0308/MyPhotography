@@ -159,3 +159,17 @@ ul > a :hover{
     }
 
 }
+
+
+footer{
+    margin-top: 50px;
+    background-color: #37383d;
+    height: 100px;
+    color: #f3f3f3;
+}
+
+footer > p{
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 50px;
+}
