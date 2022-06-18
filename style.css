@@ -60,6 +60,7 @@ ul > a :hover{
     margin-right: auto;
     font-size: 1.7rem;
     line-height: 1.35;
+    color: #28282B;
 }
 
 .image-sec{
@@ -174,4 +175,10 @@ footer > p{
     font-size: 1.3rem;
     text-align: center;
     padding-top: 50px;
+}
+
+
+#section1,#section2,#section3{
+    margin-top: 70px;
+    text-align: center;
 }
